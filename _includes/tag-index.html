@@ -1,0 +1,13 @@
+{% if tag == "video" %}
+<span>视频{% if videoCounter %}({{ videoCounter }}){% endif %}</span>
+{% elsif tag == "audio" %}
+<span>音乐{% if audioCounter %}({{ audioCounter }}){% endif %}</span>
+{% elsif tag == "gallery" %}
+<span>照片{% if galleryCounter %}({{galleryCounter}}){% endif %}</span>
+{% elsif tag == "link" %}
+<span>链接{% if linkCounter %}({{ linkCounter }}){% endif %}</span>
+{% elsif tag == "quote" %}
+<span>说说{% if quoteCounter %}({{ quoteCounter }}){% endif %}</span>
+{% else %}
+<span>文章{% if articleCounter %}({{ articleCounter }}){% endif %}</span>
+{% endif %}

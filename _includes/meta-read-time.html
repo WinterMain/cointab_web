@@ -1,0 +1,9 @@
+<span class="reading-time">
+  {% assign words = content | number_of_words %}
+  {% if words < 360 %}
+    1分钟前阅读
+  {% else %}
+    {{ words | divided_by:180 }}分钟前阅读
+  {% endif %}
+</span>
+    

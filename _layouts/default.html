@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{page.title}} | {{site.name}}</title>
+    {% seo %}
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/base.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/vendor.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/waifu.css">
+    <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
+    {% include tracking-header.html %}
+    <script src="{{site.baseurl}}/assets/js/modernizr.js"></script>
+</head>
+
+<body class="{% if page.url == "/" %} homefirstpage {% elsif page.layout == "post" %} ss-bg-white {% endif %}">
+    <!-- preloader
+    ================================================== -->
+    <!-- <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div> -->
+
+    <div id="top" class="s-wrap site-wrapper"></div>
+
+    <!-- Content -->
+    {{ content }}
+
+    {% include tracking-footer.html %}
+
+
+    <div class="waifu">
+        <div class="waifu-tips"></div>
+        <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+        <div class="waifu-tool">
+            <span class="fui-home"></span>
+            <span class="fui-chat"></span>
+            <span class="fui-eye"></span>
+            <span class="fui-user"></span>
+            <span class="fui-photo"></span>
+            <span class="fui-cross"></span>
+        </div>
+    </div>
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="{{site.baseurl}}/assets/js/plugins.js"></script>
+    <script src="{{site.baseurl}}/assets/js/main.js"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.async = true;
+            hm.src = "https://hm.baidu.com/hm.js?4c2ddb1820db540af541b879b523ca3b";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+    <script src="{{site.baseurl}}/assets/js/waifu-tips.js"></script>
+    <script src="{{site.baseurl}}/assets/js/live2d.js"></script>
+    <script type="text/javascript">initModel("{{site.baseurl}}/assets/waifu/")</script>
+</body>
+
+</html>

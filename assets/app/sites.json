@@ -1,0 +1,30 @@
+[
+  {
+    "name": "CoinEx",
+    "address": "https://www.coinex.com",
+    "logo": "",
+    "description": "",
+    "tags": [
+      "popular",
+      "exchange"
+    ]
+  },
+  {
+    "name": "Binance",
+    "address": "https://www.binance.com",
+    "logo": "",
+    "description": "",
+    "tags": [
+      "exchange"
+    ]
+  },
+  {
+    "name": "OKX",
+    "address": "https://www.okx.com",
+    "logo": "",
+    "description": "",
+    "tags": [
+      "exchange"
+    ]
+  }
+]

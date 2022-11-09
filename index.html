@@ -1,0 +1,49 @@
+---
+title: "Coin Tab"
+layout: default
+pagination: true
+enabled: true
+---
+
+<div class="s-content">
+    <div class="masonry-wrap">
+        <div class="masonry">
+            <div class="grid-sizer"></div>
+            {% for post in paginator.posts %}
+            {% include article-index.html %}
+            {% endfor %}
+        </div>
+    </div>
+
+    {% if paginator.total_pages > 1 %}
+    <div class="row">
+        <div class="column large-full">
+            <nav class="pgn">
+                <ul>
+                    {% if paginator.previous_page %}
+                    <li><a class="pgn__prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a></li>
+                    {% else %}
+                    <li><span class="pgn__prev disabled">Prev</span></li>
+                    {% endif %}
+
+                    {% for page in (1..paginator.total_pages) %}
+                    {% if page == paginator.page %}
+                    <li><span class="pgn__num current">{{page}}</span></li>
+                    {% elsif page == 1 %}
+                    <li><a class="pgn__num" href="{{site.baseurl}}">{{ page }}</a></li>
+                    {% else %}
+                    <li><a class="pgn__num" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+                    {% endif %}
+                    {% endfor %}
+
+                    {% if paginator.next_page %}
+                    <li><a class="pgn__next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a></li>
+                    {% else %}
+                    <li><span class="pgn__next disabled">Next</span></li>
+                    {% endif %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+    {% endif %}
+</div>

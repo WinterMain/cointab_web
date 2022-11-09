@@ -1,0 +1,95 @@
+# Site
+name: 'Coin Tab'
+description: 'Coin Tab official website'
+logo: 'assets/images/mylogo.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: '/cointab_doc'
+disqus: 'demowebsite'
+email: 'aiyld@hotmail.com'
+mailchimp-list: 'https://www.samyoc.com/yoc/message?action=subscribe'
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+articletypes: ["article", "quote", "video", "gallery", "audio", "link"]
+
+authors:
+    yld:
+      name:           YLD
+      link:           author-yld
+      site:           https://www.yanglidong.com
+      avatar:         assets/images/mylogo.png
+      bio:            "Hi, 我是YLD，英文名Winter。一个天真执着的程序员，技术宅，技术痴，终日遨游于代码的星辰大海!"
+      email:          aiyld@hotmail.com
+      twitter:        https://twitter.com/yang_ld
+      sina:           https://weibo.com/myyld
+
+socials:
+  samyoc:
+    name: "samyoc"
+    url: "https://www.samyoc.com/home/1"
+  facebook:
+    name: "facebook"
+    url: "https://www.facebook.com/winteryld"
+  weibo:
+    name: "微博"
+    url: "https://weibo.com/myyld"
+  github:
+    name: "GitHub"
+    url: "https://github.com/aiyld"
+  twitter:
+    name: "Twitter"
+    url: "https://twitter.com/yang_ld"
+ 
+rewards:
+  btc:
+    name: BTC
+    addr: "1GuUXQ8XQxAurvCBe4vM3qSkqs9ieenKpe"
+    logo: 'assets/images/btc.png'
+    qr: 'assets/images/btc-qr.png'
+  bch:
+    name: BCH(CashAddr)
+    addr: "qzh8vl3yj29ecugq4fup027d3eqynaalaugvhmpvge"
+    logo: 'assets/images/bch.jpg'
+    qr: 'assets/images/bch-qr.png'
+  ETH:
+    name: ETH
+    addr: "0x2b3246b2f13e586839d9dcb173f5c6cffaf46930"
+    logo: 'assets/images/eth.png'
+    qr: 'assets/images/eth-qr.png'
+
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: yld
+      avatar: assets/images/mylogo.png
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 16
+
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]

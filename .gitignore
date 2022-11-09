@@ -1,0 +1,7 @@
+_site
+.jekyll-cache
+.sass-cache
+.idea
+.vscode
+.DS_store
+vendor
