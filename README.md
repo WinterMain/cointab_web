@@ -1,0 +1,1 @@
+# cointype_doc
