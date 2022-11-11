@@ -2,7 +2,7 @@
   {
     "name": "CoinEx",
     "address": "https://www.coinex.com",
-    "logo": "",
+    "logo": "https://aiyld.github.io/cointab_doc/assets/app/logo/coinex.svg",
     "description": "",
     "tags": [
       "popular",
@@ -12,7 +12,7 @@
   {
     "name": "Binance",
     "address": "https://www.binance.com",
-    "logo": "",
+    "logo": "https://aiyld.github.io/cointab_doc/assets/app/logo/binance.svg",
     "description": "",
     "tags": [
       "exchange"
@@ -22,7 +22,7 @@
     "name": "OKX",
     "address": "https://www.okx.com",
     "logo": "",
-    "description": "",
+    "description": "https://aiyld.github.io/cointab_doc/assets/app/logo/okx.svg",
     "tags": [
       "exchange"
     ]
