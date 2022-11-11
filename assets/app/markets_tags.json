@@ -1,0 +1,20 @@
+[
+  {
+    "title": {
+      "en_US": "Popular",
+      "zh_Hans_CN": "最受欢迎的",
+      "zh_Hant_HK": "最受歡迎的"
+    },
+    "logo": "",
+    "type": "popular"
+  },
+  {
+    "title": {
+      "en_US": "Exchange",
+      "zh_Hans_CN": "交易所",
+      "zh_Hant_HK": "交易所"
+    },
+    "logo": "",
+    "type": "exchange"
+  }
+]
