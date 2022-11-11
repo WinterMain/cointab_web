@@ -3,7 +3,11 @@
     "name": "CoinEx",
     "address": "https://www.coinex.com",
     "logo": "https://aiyld.github.io/cointab_doc/assets/app/logo/coinex.svg",
-    "description": "",
+    "description": {
+      "en_US": "The Global Cryptocurrency Exchange",
+      "zh_Hans_CN": "全球数字资产交易平台，让加密资产交易更简单",
+      "zh_Hant_HK": "全球數字資產交易平台，讓加密資產交易更簡單"
+    },
     "tags": [
       "popular",
       "exchange"
@@ -13,7 +17,7 @@
     "name": "Binance",
     "address": "https://www.binance.com",
     "logo": "https://aiyld.github.io/cointab_doc/assets/app/logo/binance.svg",
-    "description": "",
+    "description": "Buy, trade, and hold 350+ cryptocurrencies on Binance",
     "tags": [
       "exchange"
     ]
@@ -21,8 +25,8 @@
   {
     "name": "OKX",
     "address": "https://www.okx.com",
-    "logo": "",
-    "description": "https://aiyld.github.io/cointab_doc/assets/app/logo/okx.svg",
+    "logo": "https://aiyld.github.io/cointab_doc/assets/app/logo/okx.svg",
+    "description": "",
     "tags": [
       "exchange"
     ]
