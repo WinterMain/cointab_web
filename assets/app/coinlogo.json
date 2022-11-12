@@ -1,6 +1,7 @@
 {
-  "BTC": "https://aiyld.github.io/cointab_doc/assets/app/logo/btc.png",
-  "CET": "https://aiyld.github.io/cointab_doc/assets/app/logo/cet.png",
-  "ETH": "https://aiyld.github.io/cointab_doc/assets/app/logo/eth.png",
-  "BNB": "https://aiyld.github.io/cointab_doc/assets/app/logo/bnb.svg"
+  "BaseURL": "https://aiyld.github.io/cointab_doc/assets/app/logo/",
+  "BTC": "btc.png",
+  "CET": "cet.png",
+  "ETH": "eth.png",
+  "BNB": "bnb.svg"
 }
