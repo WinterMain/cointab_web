@@ -1,13 +1,18 @@
 [
   {
-    "pair": "CET/USDT",
+    "pair": "BTC/USDT",
     "tags": [
-      "popular",
-      "exchange"
+      "popular"
     ]
   },
   {
-    "pair": "BTC/USDT",
+    "pair": "BTC/BUSD",
+    "tags": [
+      "popular"
+    ]
+  },
+  {
+    "pair": "BTC/USDC",
     "tags": [
       "popular"
     ]
@@ -29,6 +34,13 @@
     "pair": "XRP/USDT",
     "tags": [
       "popular"
+    ]
+  },
+  {
+    "pair": "CET/USDT",
+    "tags": [
+      "popular",
+      "exchange"
     ]
   },
   {
