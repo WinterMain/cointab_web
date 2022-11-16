@@ -5,8 +5,17 @@
       "zh_Hans_CN": "最受欢迎的",
       "zh_Hant_HK": "最受歡迎的"
     },
-    "logo": "other/hot.svg",
+    "logo": "other/hot.svg?t=1",
     "type": "popular"
+  },
+  {
+    "title": {
+      "en_US": "Top 10",
+      "zh_Hans_CN": "前10",
+      "zh_Hant_HK": "前10"
+    },
+    "logo": "other/top10.svg",
+    "type": "top10"
   },
   {
     "title": {
@@ -16,5 +25,30 @@
     },
     "logo": "other/exchange.svg",
     "type": "exchange"
+  },
+  {
+    "title": "USDT",
+    "logo": "usdt.png",
+    "type": "usdt"
+  },
+  {
+    "title": "DeFi",
+    "logo": "other/defi.svg",
+    "type": "defi"
+  },
+  {
+    "title": "NFT",
+    "logo": "other/nft.svg",
+    "type": "nft"
+  },
+  {
+    "title": "BUSD",
+    "logo": "busd.png",
+    "type": "busd"
+  },
+  {
+    "title": "USDC",
+    "logo": "usdc.png",
+    "type": "usdc"
   }
 ]

@@ -24,6 +24,18 @@
     ]
   },
   {
+    "pair": "ETH/BUSD",
+    "tags": [
+      "popular"
+    ]
+  },
+  {
+    "pair": "BUSD/USDT",
+    "tags": [
+      "top10"
+    ]
+  },
+  {
     "pair": "BNB/USDT",
     "tags": [
       "popular",
@@ -118,7 +130,7 @@
   {
     "pair": "FTT/USDT",
     "tags": [
-      "popular"
+      "popular", "exchange"
     ]
   },
   {
