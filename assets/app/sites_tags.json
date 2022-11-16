@@ -5,7 +5,7 @@
       "zh_Hans_CN": "最受欢迎的",
       "zh_Hant_HK": "最受歡迎的"
     },
-    "logo": "",
+    "logo": "other/hot.svg",
     "type": "popular"
   },
   {
@@ -14,7 +14,7 @@
       "zh_Hans_CN": "交易所",
       "zh_Hant_HK": "交易所"
     },
-    "logo": "",
+    "logo": "other/exchange.svg",
     "type": "exchange"
   }
 ]
