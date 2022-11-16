@@ -1,0 +1,14 @@
+{
+  "refer": {
+    "coinex": { 
+      "type": "query",
+      "key": "refer_code",
+      "value": "p9uec"
+    },
+    "binance": { 
+      "type": "query",
+      "key": "ref",
+      "value": "28672219"
+    }
+  }
+}
