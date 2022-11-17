@@ -2,7 +2,7 @@
   {
     "name": "Coin Tab Web",
     "address": "https://aiyld.github.io/cointab_web/",
-    "logo": "cointab.svg",
+    "logo": "cointab_squal.png",
     "description": {
       "en_US": "A personalized new tab page for cryptocurrency enthusiasts, free to add markets, websites, HD wallpapers, provide profit analysis and early warnings, and help you keep abreast of market changes",
       "zh_Hans_CN": "加密资产爱好者的个性新标签页，自由添加市场，网站，高清壁纸，提供盈亏分析和预警，随时了解市场变化",
@@ -132,6 +132,24 @@
     "description": "",
     "tags": [
       "dex"
+    ]
+  },
+  {
+    "name": "GitHub",
+    "address": "https://github.com/",
+    "logo": "sushi.png",
+    "description": "",
+    "tags": [
+      "social"
+    ]
+  },
+  {
+    "name": "Twitter",
+    "address": "https://twitter.com/",
+    "logo": "other/twitter.png",
+    "description": "",
+    "tags": [
+      "social"
     ]
   }
 ]

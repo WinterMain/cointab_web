@@ -10,6 +10,15 @@
   },
   {
     "title": {
+      "en_US": "Social",
+      "zh_Hans_CN": "社交",
+      "zh_Hant_HK": "社交"
+    },
+    "logo": "other/social.svg",
+    "type": "social"
+  },
+  {
+    "title": {
       "en_US": "Exchange",
       "zh_Hans_CN": "交易所",
       "zh_Hant_HK": "交易所"
