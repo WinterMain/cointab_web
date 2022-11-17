@@ -10,9 +10,9 @@
   },
   {
     "title": {
-      "en_US": "Social",
-      "zh_Hans_CN": "社交",
-      "zh_Hant_HK": "社交"
+      "en_US": "Social & Blog",
+      "zh_Hans_CN": "社交与博客",
+      "zh_Hant_HK": "社交與博客"
     },
     "logo": "other/social.svg",
     "type": "social"

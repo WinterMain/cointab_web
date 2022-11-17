@@ -169,5 +169,50 @@
     "tags": [
       "social"
     ]
+  },
+  {
+    "name": "V2EX",
+    "address": "https://www.v2ex.com/",
+    "logo": "https://www.v2ex.com/static/icon-192.png",
+    "description": "",
+    "tags": [
+      "social"
+    ]
+  },
+  {
+    "name": "Instagram",
+    "address": "https://www.instagram.com/",
+    "logo": "other/Instagram.png",
+    "description": "",
+    "tags": [
+      "social"
+    ]
+  },
+  {
+    "name": "reddit",
+    "address": "https://www.reddit.com/",
+    "logo": "https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-152x152.png",
+    "description": "",
+    "tags": [
+      "social"
+    ]
+  },
+  {
+    "name": "微博",
+    "address": "https://weibo.com/",
+    "logo": "other/weibo.svg",
+    "description": "",
+    "tags": [
+      "social"
+    ]
+  },
+  {
+    "name": "知乎",
+    "address": "https://www.zhihu.com/",
+    "logo": "other/zhihu.svg",
+    "description": "",
+    "tags": [
+      "social"
+    ]
   }
 ]
