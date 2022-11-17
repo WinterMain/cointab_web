@@ -39,5 +39,14 @@
     },
     "logo": "other/block.svg",
     "type": "explorer"
+  },
+  {
+    "title": {
+      "en_US": "News",
+      "zh_Hans_CN": "资讯",
+      "zh_Hant_HK": "資訊"
+    },
+    "logo": "other/news.svg",
+    "type": "news"
   }
 ]

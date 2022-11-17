@@ -259,5 +259,77 @@
     "tags": [
       "explorer"
     ]
+  },
+  {
+    "name": "CoinMarketCap",
+    "address": "https://blockchain.coinmarketcap.com/",
+    "logo": "https://blockchain.coinmarketcap.com/static/favicon.ico",
+    "description": "CoinMarketCap BlockChain Explorer",
+    "tags": [
+      "explorer"
+    ]
+  },
+  {
+    "name": "CoinMarketCap",
+    "address": "https://coinmarketcap.com/",
+    "logo": "https://coinmarketcap.com/apple-touch-icon.png",
+    "description": "Top cryptocurrency prices and charts, listed by market capitalization.",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "name": "crypto.news",
+    "address": "https://crypto.news/",
+    "logo": "https://crypto.news/app/uploads/2022/01/cropped-cryptonews-icon-180x180.png",
+    "description": "Get latest & hot crypto news",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "name": "CoinGape",
+    "address": "https://coingape.com/",
+    "logo": "https://cdn.coingape.com/wp-content/uploads/2017/09/14183030/cropped-CoinGape_logo-192x192.png",
+    "description": "Bitcoin, Ethereum, Crypto News and Price Analysis",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "name": "非小号",
+    "address": "https://www.feixiaohaozh.info/",
+    "logo": "https://www.feixiaohaozh.info/favicon.svg",
+    "description": "",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "name": "Crypto Daily™",
+    "address": "https://cryptodaily.co.uk/",
+    "logo": "https://cryptodaily.co.uk/assets/cryptodaily/img/cryptodaily-favicon-32x32.jpg",
+    "description": "Top Crypto and Blockchain News",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "name": "DappRadar",
+    "address": "https://dappradar.com/",
+    "logo": "https://dappradar.com/public-assets/apple-touch-icon.png",
+    "description": "The World’s Dapp Store & Blockchain Dapps Ranked",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "name": "CryptoRank",
+    "address": "https://cryptorank.io/",
+    "logo": "https://cryptorank.io/static/logo.png",
+    "description": "Cryptocurrency Market Capitalization ✔ Coin ratings",
+    "tags": [
+      "news"
+    ]
   }
 ]
