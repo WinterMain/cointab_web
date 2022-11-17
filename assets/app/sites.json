@@ -261,7 +261,7 @@
     ]
   },
   {
-    "name": "CoinMarketCap",
+    "name": "CMC Explorer",
     "address": "https://blockchain.coinmarketcap.com/",
     "logo": "https://blockchain.coinmarketcap.com/static/favicon.ico",
     "description": "CoinMarketCap BlockChain Explorer",
@@ -330,6 +330,33 @@
     "description": "Cryptocurrency Market Capitalization ✔ Coin ratings",
     "tags": [
       "news"
+    ]
+  },
+  {
+    "name": "PolygonScan",
+    "address": "https://polygonscan.com/",
+    "logo": "https://polygonscan.com/images/svg/brands/polygon.svg",
+    "description": "Polygon (MATIC) Blockchain Explorer",
+    "tags": [
+      "explorer"
+    ]
+  },
+  {
+    "name": "SnowTrace",
+    "address": "https://snowtrace.io/",
+    "logo": "https://snowtrace.io/images/favicon.ico?v=22.11.2.0",
+    "description": "Avalanche (AVAX) C-Chain Blockchain Explorer",
+    "tags": [
+      "explorer"
+    ]
+  },
+  {
+    "name": "Solana Explorer",
+    "address": "https://explorer.solana.com/",
+    "logo": "https://explorer.solana.com/favicon.ico",
+    "description": "Solana (SOL) Blockchain Explorer",
+    "tags": [
+      "explorer"
     ]
   }
 ]
