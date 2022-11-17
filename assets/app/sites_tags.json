@@ -30,5 +30,14 @@
     "title": "DEX",
     "logo": "other/defi.svg",
     "type": "dex"
+  },
+  {
+    "title": {
+      "en_US": "Block Explorer",
+      "zh_Hans_CN": "区块浏览器",
+      "zh_Hant_HK": "區塊瀏覽器"
+    },
+    "logo": "other/block.svg",
+    "type": "explorer"
   }
 ]

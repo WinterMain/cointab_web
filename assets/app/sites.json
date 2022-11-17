@@ -128,7 +128,7 @@
   {
     "name": "Sun.io",
     "address": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/1116.png",
-    "logo": "sushi.png",
+    "logo": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/1116.png",
     "description": "",
     "tags": [
       "dex"
@@ -213,6 +213,51 @@
     "description": "",
     "tags": [
       "social"
+    ]
+  },
+  {
+    "name": "Etherscan",
+    "address": "https://etherscan.io/",
+    "logo": "https://etherscan.io/images/brandassets/etherscan-logo-circle.jpg",
+    "description": " Ethereum (ETH) Blockchain Explorer",
+    "tags": [
+      "explorer"
+    ]
+  },
+  {
+    "name": "ViaWallet Explorer",
+    "address": "https://explorer.viawallet.com/",
+    "logo": "https://bridge.coinex.net/images/header/viawallet-logo.svg",
+    "description": "ViaWallet Blockchain Explorer",
+    "tags": [
+      "explorer"
+    ]
+  },
+  {
+    "name": "TRONSCAN",
+    "address": "https://tronscan.org/",
+    "logo": "https://tronscan.org/favicon.png?v=2",
+    "description": "TRON BlockChain Explorer",
+    "tags": [
+      "explorer"
+    ]
+  },
+  {
+    "name": "BscScan",
+    "address": "https://bscscan.com/",
+    "logo": "https://BscScan.com/images/brandassets/BscScan-logo-circle.jpg",
+    "description": "Binance (BNB) Blockchain Explorer",
+    "tags": [
+      "explorer"
+    ]
+  },
+  {
+    "name": "Btc.com",
+    "address": "https://explorer.btc.com/",
+    "logo": "https://explorer.btc.com/favicon.ico",
+    "description": "",
+    "tags": [
+      "explorer"
     ]
   }
 ]
