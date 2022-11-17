@@ -1,6 +1,1 @@
-[
-  { "coin": "BTC", "address": "1Q6ZDFC3FueXY3JocmeMqgiSsGGtppbvz2" },
-  { "coin": "ETH", "address": "0xff6FC30033269845d196cB48F6a0660598D218D8" },
-  { "coin": "BNB", "address": "0xff6FC30033269845d196cB48F6a0660598D218D8" },
-  { "coin": "CET", "address": "0xff6FC30033269845d196cB48F6a0660598D218D8" }
-]
+[{"coin":"BTC","address":"1Q6ZDFC3FueXY3JocmeMqgiSsGGtppbvz2"},{"coin":"ETH","address":"0xff6FC30033269845d196cB48F6a0660598D218D8"},{"coin":"BNB","address":"0xff6FC30033269845d196cB48F6a0660598D218D8"},{"coin":"CET","address":"0xff6FC30033269845d196cB48F6a0660598D218D8"}]
