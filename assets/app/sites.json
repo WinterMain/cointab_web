@@ -137,7 +137,7 @@
   {
     "name": "GitHub",
     "address": "https://github.com/",
-    "logo": "sushi.png",
+    "logo": "other/GitHub.svg",
     "description": "",
     "tags": [
       "social"
@@ -147,6 +147,24 @@
     "name": "Twitter",
     "address": "https://twitter.com/",
     "logo": "other/twitter.png",
+    "description": "",
+    "tags": [
+      "social"
+    ]
+  },
+  {
+    "name": "Facebook",
+    "address": "https://www.facebook.com/",
+    "logo": "other/Facebook.png",
+    "description": "",
+    "tags": [
+      "social"
+    ]
+  },
+  {
+    "name": "Medium",
+    "address": "https://medium.com/",
+    "logo": "other/medium.png",
     "description": "",
     "tags": [
       "social"
