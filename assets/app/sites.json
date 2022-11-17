@@ -1,7 +1,20 @@
 [
   {
+    "name": "Coin Tab Web",
+    "address": "https://aiyld.github.io/cointab_web/",
+    "logo": "cointab.svg",
+    "description": {
+      "en_US": "A personalized new tab page for cryptocurrency enthusiasts, free to add markets, websites, HD wallpapers, provide profit analysis and early warnings, and help you keep abreast of market changes",
+      "zh_Hans_CN": "加密资产爱好者的个性新标签页，自由添加市场，网站，高清壁纸，提供盈亏分析和预警，随时了解市场变化",
+      "zh_Hant_HK": "加密資產愛好者的個性新標簽頁，自由添加市場，網站，高清壁紙，提供盈虧分析和預警，隨時了解市場變化"
+    },
+    "tags": [
+      "popular"
+    ]
+  },
+  {
     "name": "CoinEx",
-    "address": "https://www.coinex.com",
+    "address": "https://www.coinex.com?refer_code=p9uec",
     "logo": "coinex.svg",
     "description": {
       "en_US": "The Global Cryptocurrency Exchange",
@@ -15,7 +28,7 @@
   },
   {
     "name": "Binance",
-    "address": "https://www.binance.com",
+    "address": "https://www.binance.com?ref=28672219",
     "logo": "binance.svg",
     "description": "Buy, trade, and hold 350+ cryptocurrencies on Binance",
     "tags": [
@@ -29,6 +42,96 @@
     "description": "",
     "tags": [
       "exchange"
+    ]
+  },
+  {
+    "name": "Coinbase",
+    "address": "https://pro.coinbase.com",
+    "logo": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/89.png",
+    "description": "",
+    "tags": [
+      "exchange"
+    ]
+  },
+  {
+    "name": "Gate.io",
+    "address": "https://gate.io/",
+    "logo": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/302.png",
+    "description": "",
+    "tags": [
+      "exchange"
+    ]
+  },
+  {
+    "name": "Kraken",
+    "address": "https://www.kraken.com",
+    "logo": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/24.png",
+    "description": "",
+    "tags": [
+      "exchange"
+    ]
+  },
+  {
+    "name": "Huobi Global",
+    "address": "https://www.huobi.com/",
+    "logo": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/102.png",
+    "description": "",
+    "tags": [
+      "exchange"
+    ]
+  },
+  {
+    "name": "Uniswap",
+    "address": "https://app.uniswap.org/#/swap",
+    "logo": "uni.png",
+    "description": "",
+    "tags": [
+      "dex"
+    ]
+  },
+  {
+    "name": "dYdX",
+    "address": "https://dydx.exchange/r/EOWRNLEF",
+    "logo": "dydx.png",
+    "description": "",
+    "tags": [
+      "dex"
+    ]
+  },
+  {
+    "name": "PancakeSwap (V2)",
+    "address": "https://pancakeswap.finance/",
+    "logo": "cake.png",
+    "description": "",
+    "tags": [
+      "dex"
+    ]
+  },
+  {
+    "name": "OneSwap",
+    "address": "https://www.oneswap.net/cet?r=10002651",
+    "logo": "ones.png",
+    "description": "",
+    "tags": [
+      "dex"
+    ]
+  },
+  {
+    "name": "SushiSwap",
+    "address": "https://app.sushi.com/swap",
+    "logo": "sushi.png",
+    "description": "",
+    "tags": [
+      "dex"
+    ]
+  },
+  {
+    "name": "Sun.io",
+    "address": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/1116.png",
+    "logo": "sushi.png",
+    "description": "",
+    "tags": [
+      "dex"
     ]
   }
 ]

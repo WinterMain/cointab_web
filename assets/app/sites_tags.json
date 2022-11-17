@@ -16,5 +16,10 @@
     },
     "logo": "other/exchange.svg",
     "type": "exchange"
+  },
+  {
+    "title": "DEX",
+    "logo": "other/defi.svg",
+    "type": "dex"
   }
 ]
