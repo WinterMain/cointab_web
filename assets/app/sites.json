@@ -155,7 +155,7 @@
   {
     "name": "Facebook",
     "address": "https://www.facebook.com/",
-    "logo": "other/Facebook.png",
+    "logo": "other/Facebook.svg",
     "description": "",
     "tags": [
       "social"
