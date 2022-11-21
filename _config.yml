@@ -1,8 +1,8 @@
 # Site
 name: 'CoinTab'
 description: 'A personalized new tab page for cryptocurrency enthusiasts'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
+logo: 'assets/images/logo.png?t=1'
+favicon: 'assets/images/favicon.ico?t=1'
 baseurl: '/cointab_web'
 disqus: 'demowebsite'
 email: 'aiyld@hotmail.com'

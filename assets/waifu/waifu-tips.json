@@ -73,7 +73,7 @@
             "text": ["Can't find what you want to see? Search and have a look"]
         },
         {
-            "selector": ". previous",
+            "selector": ".previous",
             "text": ["Go to the previous page to have a look"]
         },
         {
