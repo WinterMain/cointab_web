@@ -22,12 +22,12 @@ String.prototype.render = function (context) {
 var re = /x/;
 console.log(re);
 re.toString = function() {
-    showMessage('哈哈，你打开了控制台，是想要看看我的秘密吗？', 5000, true);
+    showMessage('Haha, you opened the console, do you want to see my secret?', 5000, true);
     return '';
 };
 
 $(document).on('copy', function (){
-    showMessage('你都复制了些什么呀，转载要记得加上出处哦', 5000, true);
+    showMessage('What have you copied, remember to add the source when reprinting', 5000, true);
 });
 
 $('.waifu-tool .fui-home').click(function (){
@@ -49,12 +49,12 @@ $('.waifu-tool .fui-user').click(function (){
 
 $('.waifu-tool .fui-cross').click(function (){
     sessionStorage.setItem('waifu-dsiplay', 'none');
-    showMessage('愿你有一天能与重要的人重逢', 1300, true);
+    showMessage('May you one day be able to reunite with important people', 1300, true);
     window.setTimeout(function() {$('.waifu').hide();}, 1300);
 });
 
 $('.waifu-tool .fui-photo').click(function (){
-    showMessage('照好了嘛，是不是很可爱呢？', 5000, true);
+    showMessage("Well done, isn't it cute?", 5000, true);
     window.Live2D.captureName = 'Pio.png';
     window.Live2D.captureFrame = true;
 });
@@ -67,23 +67,23 @@ $('.waifu-tool .fui-photo').click(function (){
     if (window.location.href == SiteIndexUrl) {      // 如果是主页
         var now = (new Date()).getHours();
         if (now > 23 || now <= 5) {
-            text = '你是夜猫子呀？这么晚还不睡觉，明天起的来嘛';
+            text ="Are you a night owl? I still don't sleep so late, why don't I get up tomorrow";
         } else if (now > 5 && now <= 7) {
-            text = '早上好！一日之计在于晨，美好的一天就要开始了';
+            text ="Good morning! A day's plan lies in the morning, a beautiful day is about to begin";
         } else if (now > 7 && now <= 11) {
-            text = '上午好！工作顺利嘛，不要久坐，多起来走动走动哦！';
+            text ="Good morning! Work is going well, don't sit for a long time, get up and move around more! ";
         } else if (now > 11 && now <= 14) {
-            text = '中午了，工作了一个上午，现在是午餐时间！';
+            text ="It's noon, I've worked all morning, now it's lunch time! ";
         } else if (now > 14 && now <= 17) {
-            text = '午后很容易犯困呢，今天的运动目标完成了吗？';
+            text ="It's easy to get sleepy in the afternoon, have you completed today's exercise goal? ";
         } else if (now > 17 && now <= 19) {
-            text = '傍晚了！窗外夕阳的景色很美丽呢，最美不过夕阳红~';
+            text ="It's evening! The sunset scenery outside the window is very beautiful, the most beautiful is the sunset red~";
         } else if (now > 19 && now <= 21) {
-            text = '晚上好，今天过得怎么样？';
+            text ="Good evening, how are you doing today? ";
         } else if (now > 21 && now <= 23) {
-            text = '已经这么晚了呀，早点休息吧，晚安~';
+            text ="It's so late, go to bed early, good night~";
         } else {
-            text = '嗨~ 快来逗我玩吧！';
+            text ="Hi~ come and tease me! ";
         }
     } else {
         if(document.referrer !== ''){
@@ -91,18 +91,18 @@ $('.waifu-tool .fui-photo').click(function (){
             referrer.href = document.referrer;
             var domain = referrer.hostname.split('.')[1];
             if (window.location.hostname == referrer.hostname) {
-                text = '欢迎阅读<span style="color:#0099cc;">『' + document.title.split(' - ')[0] + '』</span>';
+                text = 'Welcome to read <span style="color:#0099cc;">『' + document.title.split(' - ')[0] + '』</span>';
             } else if (domain == 'baidu') {
                 text = 'Hello! 来自 百度搜索 的朋友<br>你是搜索 <span style="color:#0099cc;">' + referrer.search.split('&wd=')[1].split('&')[0] + '</span> 找到的我吗？';
             } else if (domain == 'so') {
                 text = 'Hello! 来自 360搜索 的朋友<br>你是搜索 <span style="color:#0099cc;">' + referrer.search.split('&q=')[1].split('&')[0] + '</span> 找到的我吗？';
             } else if (domain == 'google') {
-                text = 'Hello! 来自 谷歌搜索 的朋友<br>欢迎阅读<span style="color:#0099cc;">『' + document.title.split(' - ')[0] + '』</span>';
+                text = 'Hello! Friends from google search<br>Welcome to read<span style="color:#0099cc;">『' + document.title.split(' - ')[0] + '』</span>';
             } else {
-                text = 'Hello! 来自 <span style="color:#0099cc;">' + referrer.hostname + '</span> 的朋友';
+                text = 'Hello! Friends from <span style="color:#0099cc;">' + referrer.hostname + '</span>';
             }
         } else {
-            text = '欢迎阅读<span style="color:#0099cc;">『' + document.title.split(' - ')[0] + '』</span>';
+            text = 'Welcome to read <span style="color:#0099cc;">『' + document.title.split(' - ')[0] + '』</span>';
         }
     }
     showMessage(text, 6000);
@@ -240,9 +240,9 @@ function loadRandModel(){
         dataType: "json",
         success: function (result){
             if (result.textures['id'] == 1 && (modelTexturesId == 1 || modelTexturesId == 0)) {
-                showMessage('我还没有其他衣服呢', 3000, true);
+                showMessage("I don't have any other clothes yet", 3000, true);
             } else {
-                showMessage('我的新衣服好看嘛', 3000, true);
+                showMessage('Do my new clothes look good?', 3000, true);
             }
             loadModel(modelId, result.textures['id']);
         }

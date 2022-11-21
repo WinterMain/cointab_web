@@ -2,162 +2,162 @@
     "mouseover": [
         {
             "selector": ".s-content a[href^='http']",
-            "text": ["要看看 <span style=\"color:#0099cc;\">{text}</span> 么？"]
+            "text": ["Would you like to see <span style=\"color:#0099cc;\">{text}</span>?"]
         },
         {
             "selector": ".site-logo",
-            "text": ["点击前往首页，想回到上一页可以使用浏览器的后退功能哦"]
+            "text": ["Click to go to the home page, if you want to go back to the previous page, you can use the back function of the browser"]
         },
         {
             "selector": "#tor_show",
-            "text": ["翻页比较麻烦吗，点击可以显示这篇文章的目录呢"]
+            "text": ["Is it troublesome to turn pages, click to display the table of contents of this article"]
         },
         {
             "selector": "#comments,.fui-chat",
-            "text": ["想要去评论些什么吗？"]
+            "text": ["Do you want to comment on something?"]
         },
         {
             "selector": "#night_mode",
-            "text": ["深夜时要爱护眼睛呀"]
+            "text": ["Take care of your eyes late at night"]
         },
         {
             "selector": "#qrcode",
-            "text": ["手机扫一下就能继续看，很方便呢"]
+            "text": ["You can continue watching with just one scan on your phone, it's very convenient"]
         },
         {
             "selector": ".comments",
-            "text": ["要吐槽些什么呢"]
+            "text": ["What do you want to complain about?"]
         },
         {
             "selector": ".go-top",
-            "text": ["回到开始的地方吧"]
+            "text": ["Go back to the beginning"]
         },
         {
             "selector": "#author",
-            "text": ["该怎么称呼你呢"]
+            "text": ["What should I call you"]
         },
         {
             "selector": "#mail",
-            "text": ["留下你的邮箱，不然就是无头像人士了"]
+            "text": ["Leave your email address, or you will be a person without avatar"]
         },
         {
             "selector": "#url",
-            "text": ["你的家在哪里呢，好让我去参观参观"]
+            "text": ["Where is your home, so that I can visit it"]
         },
         {
             "selector": "#nameInput",
-            "text": ["该怎么称呼你呢"]
+            "text": ["What should I call you"]
         },
         {
             "selector": "#emailInput",
-            "text": ["留下你的邮箱，不然就是无头像人士了"]
+            "text": ["Leave your email address, or you will be a person without avatar"]
         },
         {
             "selector": "#messageInput",
-            "text": ["认真填写哦，垃圾评论是禁止事项"]
+            "text": ["Fill in carefully, spam comments are prohibited"]
         },
         {
             "selector": ".OwO-logo",
-            "text": ["要插入一个表情吗"]
+            "text": ["Do you want to insert an emoticon?"]
         },
         {
             "selector": "#csubmit",
-            "text": ["要[提交]^(Commit)了吗，开心~"]
+            "text": ["Do you want to [submit]^(Commit), happy~"]
         },
         {
             "selector": ".ImageBox",
-            "text": ["点击图片可以放大呢"]
+            "text": ["Click the picture to enlarge it"]
         },
         {
             "selector": "input[name=s]",
-            "text": ["找不到想看的内容？搜索看看吧"]
+            "text": ["Can't find what you want to see? Search and have a look"]
         },
         {
-            "selector": ".previous",
-            "text": ["去上一页看看吧"]
+            "selector": ". previous",
+            "text": ["Go to the previous page to have a look"]
         },
         {
             "selector": ".next",
-            "text": ["去下一页看看吧"]
+            "text": ["Go to the next page to see"]
         },
         {
             "selector": "c-player a.play-icon",
-            "text": ["想要听点音乐吗"]
+            "text": ["Want to listen to some music?"]
         },
         {
-            "selector": "c-player div.time",
-            "text": ["在这里可以调整<span style=\"color:#0099cc;\">播放进度</span>呢"]
+            "selector": "c-player div. time",
+            "text": ["Here you can adjust <span style=\"color:#0099cc;\">play progress</span>"]
         },
         {
-            "selector": "c-player div.volume",
-            "text": ["在这里可以调整<span style=\"color:#0099cc;\">音量</span>呢"]
+            "selector": "c-player div. volume",
+            "text": ["Here you can adjust <span style=\"color:#0099cc;\">volume</span>"]
         },
         {
-            "selector": "c-player div.list-button",
-            "text": ["<span style=\"color:#0099cc;\">播放列表</span>里都有什么呢"]
+            "selector": "c-player div. list-button",
+            "text": ["<span style=\"color:#0099cc;\">What's in the playlist</span>"]
         },
         {
-            "selector": "c-player div.lyric-button",
-            "text": ["有<span style=\"color:#0099cc;\">歌词</span>的话就能跟着一起唱呢"]
+            "selector": "c-player div. lyric-button",
+            "text": ["If you have <span style=\"color:#0099cc;\">lyrics</span>, you can sing along"]
         },
         {
             "selector": ".waifu #live2d",
-            "text": ["干嘛呢你，快把手拿开", "鼠…鼠标放错地方了！"]
+            "text": ["What are you doing, take your hands away", "The mouse... the mouse is in the wrong place!"]
         }
     ],
     "click": [
         {
             "selector": ".waifu #live2d",
-            "text": ["是…是不小心碰到了吧", "萝莉控是什么呀", "你看到我的小熊了吗", "再摸的话我可要报警了！⌇●﹏●⌇", "110吗，这里有个变态一直在摸我(ó﹏ò｡)"]
+            "text": ["Yes... I touched it by accident", "What is Lolicon", "Did you see my bear", "I will call the police if I touch it again!⌇●﹏● ⌇", "110, there is a pervert here who has been touching me (ó﹏ò｡)"]
         }
     ],"seasons": [
         {
             "date": "01/01",
-            "text": "<span style=\"color:#0099cc;\">元旦</span>了呢，新的一年又开始了，今年是{year}年~"
+            "text": "<span style=\"color:#0099cc;\">New Year's Day</span>, the new year has started again, this year is {year}~"
         },
         {
             "date": "02/14",
-            "text": "又是一年<span style=\"color:#0099cc;\">情人节</span>，{year}年找到对象了嘛~"
+            "text": "It's another year of <span style=\"color:#0099cc;\">Valentine's Day</span>, did you find someone in {year}~"
         },
         {
             "date": "03/08",
-            "text": "今天是<span style=\"color:#0099cc;\">妇女节</span>！"
+            "text": "Today is <span style=\"color:#0099cc;\">Women's Day</span>!"
         },
         {
             "date": "03/12",
-            "text": "今天是<span style=\"color:#0099cc;\">植树节</span>，要保护环境呀"
+            "text": "Today is <span style=\"color:#0099cc;\">Arbor Day</span>, we must protect the environment"
         },
         {
             "date": "04/01",
-            "text": "悄悄告诉你一个秘密~<span style=\"background-color:#34495e;\">今天是愚人节，不要被骗了哦~</span>"
+            "text": "Quietly tell you a secret~<span style=\"background-color:#34495e;\">Today is April Fool's Day, don't be fooled~</span>"
         },
         {
             "date": "05/01",
-            "text": "今天是<span style=\"color:#0099cc;\">五一劳动节</span>，计划好假期去哪里了吗~"
+            "text": "Today is <span style=\"color:#0099cc;\">May 1 Labor Day</span>, have you planned where to go during the holiday~"
         },
         {
             "date": "06/01",
-            "text": "<span style=\"color:#0099cc;\">儿童节</span>了呢，快活的时光总是短暂，要是永远长不大该多好啊…"
+            "text": "<span style=\"color:#0099cc;\">Children's Day</span> is here, the happy time is always short, it would be great if I never grow up..."
         },
         {
             "date": "09/03",
-            "text": "<span style=\"color:#0099cc;\">中国人民抗日战争胜利纪念日</span>，铭记历史、缅怀先烈、珍爱和平、开创未来。"
+            "text": "<span style=\"color:#0099cc;\">The Victory Day of the Chinese People's War of Resistance Against Japanese Aggression</span>, remembering history, remembering the martyrs, cherishing peace, and creating the future."
         },
         {
             "date": "09/10",
-            "text": "<span style=\"color:#0099cc;\">教师节</span>，在学校要给老师问声好呀~"
+            "text": "<span style=\"color:#0099cc;\">Teacher's Day</span>, you should say hello to the teacher at school~"
         },
         {
             "date": "10/01",
-            "text": "<span style=\"color:#0099cc;\">国庆节</span>，新中国已经成立69年了呢"
+            "text": "<span style=\"color:#0099cc;\">National Day</span>, New China has been established for 69 years"
         },
         {
             "date": "11/05-11/12",
-            "text": "今年的<span style=\"color:#0099cc;\">双十一</span>是和谁一起过的呢~"
+            "text": "Who did you spend this year's <span style=\"color:#0099cc;\">Double Eleven</span> with~"
         },
         {
             "date": "12/20-12/31",
-            "text": "这几天是<span style=\"color:#0099cc;\">圣诞节</span>，主人肯定又去剁手买买买了~"
+            "text": "These days are <span style=\"color:#0099cc;\">Christmas</span>, the owner must be shopping again~"
         }
     ]
 }
