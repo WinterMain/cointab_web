@@ -135,7 +135,7 @@ function showHitokoto(){
         // var text = '<span style="color:#0099cc;">{source}</span>，是来自<span style="color:#0099cc;">{from}</span>';
         // text = text.render({source: result.from, creator: result.creator});
         showMessage(result.hitokoto, 5000);
-        window.setTimeout(function() {showMessage(text, 3000);}, 5000);
+        // window.setTimeout(function() {showMessage(text, 3000);}, 5000);
     });
 	/*
 	$.getJSON('https://api.fghrsh.net/hitokoto/rand/?encode=jsc&uid=3335',function(result){
