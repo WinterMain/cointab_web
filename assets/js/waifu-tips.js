@@ -185,7 +185,7 @@ function initModel(waifuPath){
 	
 	$.ajax({
         cache: true,
-        url: waifuPath+'waifu-tips.json?t=1122',
+        url: waifuPath+'waifu-tips.json?t=1123',
         dataType: "json",
         success: function (result){
             $.each(result.mouseover, function (index, tips){

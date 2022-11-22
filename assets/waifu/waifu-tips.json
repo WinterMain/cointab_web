@@ -85,19 +85,19 @@
             "text": ["Want to listen to some music?"]
         },
         {
-            "selector": ".c-player div. time",
+            "selector": ".c-player div.time",
             "text": ["Here you can adjust <span style=\"color:#0099cc;\">play progress</span>"]
         },
         {
-            "selector": ".c-player div. volume",
+            "selector": ".c-player div.volume",
             "text": ["Here you can adjust <span style=\"color:#0099cc;\">volume</span>"]
         },
         {
-            "selector": ".c-player div. list-button",
+            "selector": ".c-player div.list-button",
             "text": ["<span style=\"color:#0099cc;\">What's in the playlist</span>"]
         },
         {
-            "selector": ".c-player div. lyric-button",
+            "selector": ".c-player div.lyric-button",
             "text": ["If you have <span style=\"color:#0099cc;\">lyrics</span>, you can sing along"]
         },
         {
