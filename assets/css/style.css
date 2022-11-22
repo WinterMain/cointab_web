@@ -1408,11 +1408,11 @@ section.cross_layout {
 
 .cont_theme_blog h3 {
     text-transform: uppercase;
-    background: linear-gradient(to right, #1e72bc 0%, #30CFD0 100%);
-    background: -webkit-linear-gradient(to right, #1e72bc 0%, #30CFD0 100%);
-    background: -moz-linear-gradient(to right, #1e72bc 0%, #30CFD0 100%);
-    background: -ms-linear-gradient(to right, #1e72bc 0%, #30CFD0 100%);
-    background: -o-linear-gradient(to right, #1e72bc 0%, #30CFD0 100%);
+    background: linear-gradient(to right, #26a9c6 0%, #f2aa7e 100%);
+    background: -webkit-linear-gradient(to right, #26a9c6 0%, #f2aa7e 100%);
+    background: -moz-linear-gradient(to right, #26a9c6 0%, #f2aa7e 100%);
+    background: -ms-linear-gradient(to right, #26a9c6 0%, #f2aa7e 100%);
+    background: -o-linear-gradient(to right, #26a9c6 0%, #f2aa7e 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: none;
@@ -1428,78 +1428,6 @@ section.cross_layout {
     line-height: normal;
     margin-top: 25px;
 }
-
-/*------------------------------------------------------------------
-        8. price table
--------------------------------------------------------------------*/
-
-.table_price {
-    float: left;
-    width: 100%;
-    background: #fff;
-    padding: 0 0 40px 0;
-    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.3);
-    border: solid #fff 15px;
-}
-
-.table_price_head {
-    background: #30CFD0;
-    min-height: 80px;
-}
-
-.active_price .table_price_head {
-    background: #1e72bc;
-}
-
-.table_price_head h5 {
-    font-weight: 600;
-    font-size: 21px;
-    line-height: 80px;
-    color: #fff;
-}
-
-.table_price_per {
-    min-height: 122px;
-    padding: 47px 0 0;
-}
-
-.table_price_per p {
-    font-size: 45px;
-    color: #1e72bc;
-    font-weight: 600;
-}
-
-.table_price_per p small {
-    font-size: 16px;
-}
-
-.table_price_cont_bottm {
-    padding: 0 45px;
-}
-
-.table_price_cont_bottm ul {
-    border-top: solid #ebebeb 2px;
-    float: left;
-    width: 100%;
-    padding: 25px 0;
-}
-
-.table_price_cont_bottm ul li {
-    float: left;
-    width: 100%;
-    font-size: 16px;
-    color: #333;
-    line-height: normal;
-    margin: 6px 0;
-}
-
-.table_price_bottm {
-    float: left;
-    width: 100%;
-    justify-content: center;
-    display: flex;
-}
-
 
 /*------------------------------------------------------------------
         9. team section
