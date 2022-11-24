@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/colors.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/flaticon.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/responsive.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css?t=7">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/responsive.css?t=1">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css?t=8">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/waifu.css">
     <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
     {% include tracking-header.html %}
@@ -77,6 +77,24 @@
     <script src="{{site.baseurl}}/assets/js/waifu-tips.js?t=1122-16"></script>
     <script src="{{site.baseurl}}/assets/js/live2d.js"></script>
     <script type="text/javascript">initModel("{{site.baseurl}}/assets/waifu/")</script>
+
+    <script>
+      var userAgent = navigator.userAgent;
+      var browserName;
+
+      if(userAgent.match(/chrome|chromium|crios/i) && !userAgent.match(/edg/i)){
+        browserName = "chrome";
+      }else if(userAgent.match(/firefox|fxios/i)){
+        browserName = "firefox";
+      } else if(userAgent.match(/edg/i)){
+        browserName = "edge";
+      }else{
+        // browserName="No browser detection";
+        browserName = "chrome";
+      }
+
+      $({edge: "#btn-edge", firefox: "#btn-firefox", chrome: "#btn-chrome"}[browserName]).show()
+    </script>
 </body>
 
 </html>

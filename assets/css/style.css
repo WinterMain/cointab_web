@@ -193,7 +193,6 @@ button {
 }
 
 .bt_main {
-
     color: #fff;
     font-size: 14px;
     min-width: 148px;
@@ -205,7 +204,12 @@ button {
     border: none;
     padding: 0 35px;
     transition: ease all 0.5s;
+}
 
+.bt_main .explorer-logo {
+    margin-left: 5px;
+    height: 30px;
+    width: 30px;
 }
 
 .bt_main:hover,

@@ -357,7 +357,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
     .container {
         max-width: 750px;
-        width: 100%:
+        width: 100%
     }
     .slide_cont h2 {
         font-size: 35px;
@@ -751,7 +751,7 @@
     }
     .container {
         max-width: 540px;
-        width: 100%:
+        width: 100%
     }
     .inform_dentist_botm p {
         text-align: center;
@@ -776,6 +776,10 @@
     .slide_bt {
         display: flex;
         justify-content: center;
+    }
+    .slide_bt .explorer-logo {
+        height: 30px;
+        width: 30px;
     }
     .home_page1 .slide_cont {
         margin-top: 75px;
