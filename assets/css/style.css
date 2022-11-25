@@ -210,6 +210,9 @@ button {
     margin-left: 5px;
     height: 30px;
     width: 30px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 1px;
 }
 
 .bt_main:hover,
