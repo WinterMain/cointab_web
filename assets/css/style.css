@@ -486,6 +486,14 @@ a:focus {
     max-width: 1200px;
 }
 
+.what-is-cointab {
+    text-align: center;
+}
+
+.what-is-cointab iframe{
+    margin-top: 60px;
+}
+
 .layout_padding {
     padding-top: 80px;
     padding-bottom: 100px;
