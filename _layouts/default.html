@@ -85,7 +85,8 @@
       if(userAgent.match(/chrome|chromium|crios/i) && !userAgent.match(/edg/i)){
         browserName = "chrome";
       }else if(userAgent.match(/firefox|fxios/i)){
-        browserName = "firefox";
+        // browserName = "firefox";
+        browserName = "chrome";
       } else if(userAgent.match(/edg/i)){
         browserName = "edge";
       }else{
