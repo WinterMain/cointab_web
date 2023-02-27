@@ -1,4 +1,4 @@
-# cointype_web
+# cointab_web
 
 Thank you for using CoinTab
 
