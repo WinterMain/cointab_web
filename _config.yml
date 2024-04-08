@@ -1,8 +1,8 @@
 # Site
 name: 'CoinTab'
 description: 'A personalized new tab page for cryptocurrency enthusiasts'
-logo: 'assets/images/logo.png?t=2'
-favicon: 'assets/images/favicon.ico?t=2'
+logo: 'assets/images/logo.png?t=2024'
+favicon: 'assets/images/favicon.ico?t=2024'
 baseurl: '/cointab_web'
 disqus: 'demowebsite'
 email: 'aiyld@hotmail.com'
@@ -30,9 +30,6 @@ authors:
       email:          aiyld@hotmail.com
 
 socials:
-  samyoc:
-    name: "samyoc"
-    url: "https://www.samyoc.com/home/1"
   facebook:
     name: "facebook"
     url: "https://www.facebook.com/winteryld"
