@@ -5,7 +5,7 @@ logo: 'assets/images/logo.png?t=2024'
 favicon: 'assets/images/favicon.ico?t=2024'
 baseurl: '/'
 disqus: 'demowebsite'
-email: 'aiyld@hotmail.com'
+email: 'winter.cc@qq.com'
 mailchimp-list: 'https://www.samyoc.com/yoc/message?action=subscribe'
 
 include: ["_pages"]
